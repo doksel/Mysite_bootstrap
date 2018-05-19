@@ -5,37 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mysite_bootstrap</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse py-3 bg-dark">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a href="#" class="navbar-brand">MY<i class="fa fa-circle">SITE</i></a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right ml-10">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-inverse py-3 navbar-dark bg-dark">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">MY <i class="fab fa-accusoft"></i> SITE</i></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".myNavbar"
+        aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="myNavbar navbar-collapse collapse">
+            <ul class="navbar-nav m-auto nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Works</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right ml-10">
+                <li><a href="#" class="nav-link"><i class="fas fa-user"></i> Sign Up</a></li>
+                <li><a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-nav-color" type="submit">Search</button>
+            </form> -->
         </div>
     </nav>
-
+    <header>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-ofset-2">
+                    <h1>Title</h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione quos temporibus ad itaque explicabo, enim esse omnis, mollitia consectetur, accusamus quam ipsa error dolor magni. Ducimus ipsa optio sapiente.</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 </html>
