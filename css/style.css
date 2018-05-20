@@ -41,4 +41,29 @@ nav .navbar-brand {
 nav .nav-menu > li {
   margin-right: 50px; }
 
+header {
+  background: url("../images/bg-header1.jpg") no-repeat center;
+  background-attachment: relative;
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+  position: relative; }
+  header .wraper_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(73, 54, 180, 0.7); }
+  header h1 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 3px;
+    margin-top: 100px; }
+  header h2 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+
 /*# sourceMappingURL=style.css.map */
