@@ -115,8 +115,11 @@ header{
         img{
             @include scale(1.2);
         }
-
     }
-    
+}
 
+.third-block{
+    h4{
+        font-size: 35px;
+    }
 }
