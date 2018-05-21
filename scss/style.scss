@@ -134,3 +134,15 @@ header{
         color: white; 
     }
 }
+
+footer{
+    background: rgb(45, 45, 45);
+    i{
+        color: rgb(189, 189, 189);
+        font-size: 30px;
+        padding: 20px;
+    }
+    i:hover{
+        color: rgb(255, 120, 120);;
+    }
+}

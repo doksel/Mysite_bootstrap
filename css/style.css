@@ -110,4 +110,13 @@ header {
   .fifth-block h4 {
     color: white; }
 
+footer {
+  background: #2d2d2d; }
+  footer i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px; }
+  footer i:hover {
+    color: #ff7878; }
+
 /*# sourceMappingURL=style.css.map */
