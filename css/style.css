@@ -97,7 +97,10 @@ header {
       -webkit-transform: scale(1.2);
       -o-transform: scale(1.2); }
 
-.third-block h4 {
+.forth-block h4 {
   font-size: 35px; }
+.forth-block img {
+  height: 100px;
+  width: 100px; }
 
 /*# sourceMappingURL=style.css.map */
