@@ -69,8 +69,32 @@ header {
 .first-block h4 {
   font-size: 25px; }
 
-.last-works img {
-  height: 200px;
-  width: 100px; }
+.last-works {
+  background: #e0e0e0;
+  padding: 70px; }
+  .last-works h4 {
+    font-size: 40px; }
+  .last-works .tilt {
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .last-works .tilt img {
+      height: 200px;
+      width: 100px;
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      transition: all 1s ease; }
+  .last-works .tilt:hover {
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg); }
+    .last-works .tilt:hover img {
+      transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2); }
 
 /*# sourceMappingURL=style.css.map */

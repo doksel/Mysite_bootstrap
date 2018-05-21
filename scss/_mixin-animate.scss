@@ -1,0 +1,21 @@
+@mixin transition($a) { 
+    -webkit-transition: $a; 
+    -o-transition: $a; 
+    -moz-transition: $a; 
+    transition: $a; 
+}
+
+@mixin rotate($d) { 
+    transform:rotate($d+deg); 
+    -ms-transform:rotate($d+deg); 
+    -webkit-transform:rotate($d+deg); 
+    -o-transform: rotate($d+deg); 
+}
+
+@mixin scale($d) { 
+    transform:scale($d); 
+    -ms-transform:scale($d); 
+    -webkit-transform:scale($d); 
+    -o-transform: scale($d); 
+}
+

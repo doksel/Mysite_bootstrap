@@ -1,6 +1,7 @@
 // sass --watch scss/style.scss:css/style.css
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import '_mixin-animate';
 
 body{
     font-family: 'Lato', sans-serif;
@@ -96,8 +97,26 @@ header{
 }
 
 .last-works{
-    img{
-        height: 200px;
-        width: 100px;
+    background: #e0e0e0;
+    padding: 70px;
+    h4{
+        font-size: 40px;
     }
+    .tilt{
+        @include transition(all 0.5s ease);
+        img{
+            height: 200px;
+            width: 100px;
+            @include transition(all 1s ease);
+        }
+    }
+    .tilt:hover{
+        @include rotate(10);
+        img{
+            @include scale(1.2);
+        }
+
+    }
+    
+
 }
